@@ -11,7 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> 
-
+    <!-- Materialize CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- font-awesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
   <body>
@@ -58,9 +61,9 @@
         
         <div class="listContainer">
         <ul>
-          <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#docs">Docs</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -73,119 +76,65 @@
       
       </nav>
 
+
+
     <!-- ______________________________PAGE SECTIONS______________________________ -->
 
 
-    <!-- __HOME SECTION___ -->
-    <section id="home">
-      <div class="box1"></div>
-      <div class="box2"></div>
-      <h1>HEY THERE</h1>
+    <!-- __ABOUT SECTION___ -->
+    <section id="about">
+
+      <div>
+        <div class="btn btn-large grey waves-effect waves-light">Under Construction <i class="fa-sharp fa-solid fa-person-digging"></i></div>
+        <p>Check out the architecture of this website <a href="#docs" class="btn black">Here</a></p>
+        <p>Check out my other website <a href="https://bloggly.danaalsani.com/" class="btn black">Here</a></p>
+      </div>
+
     </section>
 
     <div class="breaker"></div>
 
-    <!-- ___ABOUT SECTION___ -->
-    <section id="about">
-      <h1 class="lol">About me: </h1>
-      <p ></p>
+    <!-- ___PROJECTS SECTION___ -->
+    <section id="projects">
+    </section>
+
+    <div class="breaker"></div>
+
+    <!-- ___DOCS SECTION___ -->
+    <section id="docs">
+
+      <div class="container">
+        <ul class="collapsible">
+
+          <li>
+            <div class="collapsible-header">Version 1</div>
+            <div class="collapsible-body">
+              <img src="version1.png" alt="">
+            </div>
+          </li>
+
+          <li>
+            <div class="collapsible-header">Version 2</div>
+            <div class="collapsible-body">
+              <img src="version2.png" alt="" >
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
     </section>
 
     <div class="breaker"></div>
 
     <!-- ___CONTACT SECTION___ -->
     <section id="contact">
-      <div class="cards">
-	
-        <div class="contact">Contact Me</div>
-        <div class="contact-form">
-          <a href="#" class="close"><i class="fa fa-times"></i></a>
-          <form>
-            <div class="control"><input type="text"  id="name"/><label for="name">Your Name</label></div>
-            <div class="control"><input type="text"  id="email"/><label for="email">Email Address</label></div>
-            <div class="control"><input type="text"  id="url"/><label for="url">Website</label></div>
-            <div class="control"><textarea name="" id="message"></textarea><label for="message">Message</label></div>
-            <div class="control submit"><input type="submit" /></div>
-          </form>
-        </div>
-        
-         <div class="card active" id="overview">
-          <a class="card-toggle"><i class="fa fa-arrow-circle-left"></i></a>
-          <div class="card-content">
-            <div class="row">
-              <div class="left col">
-                <h2>Personal <strong>Social Card</strong></h2>
-                
-                <p>Click one of the social icons below to switch between card or click Contact Me link to show the contact form card. <br /><em>Make sure you're running this experiment in the latest Chrome browser.</em></p>
-                
-              </div>
-              <div class="right col">
-              </div>
-            </div>
-          </div>
-        </div> 
-        
-      
-        <div class="card" id="dribbble">
-          <a class="card-toggle"><i><span class="fa fa-dribbble"></span></i></a>
-          <div class="card-content">
-            <div class="row">
-              <div class="left col">
-                <h2>My <strong>Dribbble</strong></h2>
-                
-                <p>In ipsa reiciendis, eligendi labore dolores delectus facere perferendis ex architecto reprehenderit maxime exercitationem, libero itaque, at voluptatibus! Sit obcaecati repellat incidunt accusantium voluptas suscipit a consequuntur repudiandae nulla eius.</p>
-                
-              </div>
-              <div class="right col"><img src="https://dl.dropboxusercontent.com/u/26808427/cdn/preview.jpg" alt="" /></div>
-            </div>
-          </div>
-        </div> 
-        
-        <div class="card" id="behance">
-          <a class="card-toggle"><i><span class="fa fa-behance"></span></i></a>
-          <div class="card-content">
-            <div class="row">
-              <div class="left col">
-                <h2>My <strong>Behance</strong></h2>
-                <p>Quia fugit animi, iure error veritatis? Ipsa quis, deserunt illum culpa ab id mollitia nesciunt commodi aut dolores vero ipsam ut minima neque nam excepturi corporis obcaecati consequuntur accusantium laborum!</p>
-              </div>
-              <div class="right col"><img src="https://dl.dropboxusercontent.com/u/26808427/cdn/preview.jpg" alt="" /></div>
-            </div>
-          </div>
-        </div>
-        <div class="card" id="linkedin">
-          <a class="card-toggle"><i><span class="fa fa-linkedin"></span></i></a>
-          <div class="card-content">
-            <div class="row">
-              <div class="left col">
-                <h2>My <strong>LinkedIn</strong></h2>
-              
-                <p>Voluptas aliquam, perferendis laboriosam, cumque, autem vero pariatur dolorum tempora sint hic laborum distinctio suscipit magnam, porro provident maxime labore. Porro vel error quaerat consequatur sapiente? Nostrum at voluptatibus necessitatibus.</p>
-              </div>
-              <div class="right col"><img src="https://dl.dropboxusercontent.com/u/26808427/cdn/preview.jpg" alt="" /></div>
-            </div>
-          </div>
-        </div>
-        <div class="card" id="twitter">
-          <a class="card-toggle"><i><span class="fa fa-twitter"></span></i></a>
-          <div class="card-content">
-            <div class="row">
-              <div class="left col">
-                <h2>My <strong>Twitter</strong></h2>
-              
-                <p>Fugit veniam, animi architecto doloribus veritatis vitae sint doloremque possimus quae. Pariatur libero, veniam voluptatibus alias distinctio qui nostrum debitis voluptate amet hic repellat officiis nam quos vel doloremque praesentium.</p>
-              </div>
-              <div class="right col"><img src="https://dl.dropboxusercontent.com/u/26808427/cdn/preview.jpg" alt="" /></div>
-            </div>
-          </div>
-        </div>
-        
-        
-      </div>
     </section>
 
-
-
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <!-- GSAP -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>

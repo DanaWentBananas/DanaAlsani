@@ -1,6 +1,15 @@
+//Materialize stuff
+
+// $(document).ready(function(){
+// 	$('.tabs').tabs();
+//   })
+
+$(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+
 
 // _________________JS__________________
-
 
 //LOADING PAGE
 
@@ -98,6 +107,7 @@ document.querySelector(".contact-form input[type=submit], .contact-form .close")
 });
 
 
+//Materialize stuff
 
 
 
